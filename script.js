@@ -35,24 +35,24 @@ let i = 16;
 
 function clickTextSizeMax() {
     if (i < 32) {
-        i++
-        div.style.fontSize = `${i}px`
+        i++;
+        div.style.fontSize = `${i}px`;
     };
 };
 
 function clickTextSizeMin() {
     if (i > 9) {
-        i--
-        div.style.fontSize = `${i}px`
+        i--;
+        div.style.fontSize = `${i}px`;
     };
 };
 
 textSizeMax.addEventListener('click', function () {
-    clickTextSizeMax()
+    clickTextSizeMax();
 });
 
 textSizeMin.addEventListener('click', function () {
-    clickTextSizeMin()
+    clickTextSizeMin();
 });
 
 
